@@ -11,7 +11,8 @@ from scipy.constants import blob
 cred = credentials.Certificate(r"C:\Users\danie\PycharmProjects\daniel_Project_face_detection\accountkey.json")
 firebase_admin.initialize_app(cred,
                              {
-                                  'databaseURL':"https://face-verification-recognition-default-rtdb.firebaseio.com/",                                  'storageBucket':"face-verification-recognition.appspot.com"
+                                  'databaseURL':"https://face-verification-recognition-default-rtdb.firebaseio.com/",
+                                 'storageBucket':"face-verification-recognition.appspot.com"
 
                                })
 
